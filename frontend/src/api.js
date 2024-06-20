@@ -1,7 +1,7 @@
 import axios from "axios"
 import { ACCESS_TOKEN } from "./constants"
 
-const apiUrl = "https://d47dbdb5-e357-4c58-a469-8d17bcc06416-dev.e1-eu-north-azure.choreoapis.dev/pythonnotesapp/backend/v1";
+const apiUrl = "/choreo-apis/pythonnotesapp/backend/v1";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
