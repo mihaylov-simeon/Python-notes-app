@@ -1,0 +1,56 @@
+.note-container {
+  max-width: 80%;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.note-container:hover {
+  scale: 1.003;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 0, 0.23);
+  background-color: #ededed;
+}
+
+.note-title {
+  color: #333;
+}
+
+.note-content {
+  color: #666;
+  max-width: 100%;
+}
+
+.note-date {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.edit-note {
+  background-color: #ff8000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-note:hover {
+  background-color: #d56a00;
+}
