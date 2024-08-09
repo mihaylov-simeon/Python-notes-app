@@ -66,8 +66,8 @@ div {
 }
 
 /* Styles for the form section */
-form {
-  background-color: #fff;
+.home-form {
+  background-color: #676767;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 7px 7px rgba(0, 0, 0, 0.1);
@@ -76,26 +76,21 @@ form {
   margin-top: 20px;
 }
 
-form:hover {
-  background-color: #f8f8f8;
-  scale: 1.003;
-}
-
-form h2 {
+.home-form h2 {
   color: #626262;
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-form label {
+.home-form label {
   color: #626262;
   font-weight: bold;
   margin-top: 10px;
 }
 
-form input,
-form textarea {
+.home-form input,
+.home-form textarea {
   width: 100%;
   padding: 8px;
   margin: 8px 0 16px;
@@ -104,7 +99,7 @@ form textarea {
   box-sizing: border-box;
 }
 
-form input[type="submit"] {
+.home-form input[type="submit"] {
   background-color: #ff8000;
   color: white;
   padding: 10px 20px;
@@ -114,7 +109,7 @@ form input[type="submit"] {
   font-size: 16px;
 }
 
-form input[type="submit"]:hover {
+.home-form input[type="submit"]:hover {
   background-color: #de6f00;
 }
 

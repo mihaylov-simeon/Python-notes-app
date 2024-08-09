@@ -3,7 +3,6 @@ import { Link, useNavigate } from "react-router-dom";
 import api from "../api";
 import { ACCESS_TOKEN, REFRESH_TOKEN, USERNAME_KEY } from "../constants"
 import "../styles/Form.css";
-import LoadingIndicator from "./LoadingIndicator";
 
 function Form({ route, method }) {
     const [username, setUsername] = useState("");
@@ -37,6 +36,7 @@ function Form({ route, method }) {
     };
 
     return (
+        <div>
         <form onSubmit={handleSubmit} className="form-container">
             <h1>{name}</h1>
             <input
@@ -53,7 +53,7 @@ function Form({ route, method }) {
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Password"
             />
-            {loading && <LoadingIndicator />}
+            {loading}
             <button className="form-button" type="submit">
                 {name}
             </button>
@@ -68,6 +68,7 @@ function Form({ route, method }) {
                 </Link>
             )}
         </form>
+        </div>
     );
 }
 

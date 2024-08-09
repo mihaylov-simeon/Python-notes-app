@@ -153,7 +153,7 @@ function Home() {
       <div className="username">
         {username && <p>Hello, <span>{username}</span>!</p>}
       </div>
-      <form onSubmit={createOrUpdateNote}>
+      <form className='home-form' onSubmit={createOrUpdateNote}>
         <h2>{editId ? "Edit Note" : "Create a Note"}</h2>
         <label htmlFor="title">Title:</label>
         <br />

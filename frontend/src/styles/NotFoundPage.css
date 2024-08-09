@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
 
 body {
-    background-color: #ffffff;
+    background-color: #333333;
   }
   svg {
     position: absolute;
@@ -18,7 +18,7 @@ body {
     left: 50%;
     margin-top: -100px;
     margin-left: 50px;
-    color: #696969;
+    color: #ffffff;
     font-family: Roboto;
     font-weight: 300;
   }
@@ -31,7 +31,7 @@ body {
     margin-top: 40px;
   }
   .buttons-con .action-link-wrap a {
-    background: #0084ff;
+    background: #ff8000;
     padding: 8px 25px;
     border-radius: 4px;
     color: #FFF;
